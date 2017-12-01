@@ -27,7 +27,6 @@ brew upgrade --all
 # which version I'm using.
 
 apps=(
-    nvm
     bash-completion2
     fortune
     git
@@ -35,9 +34,12 @@ apps=(
     homebrew/completions/brew-cask-completion
     homebrew/dupes/grep
     homebrew/dupes/openssh
+    neovim
+    nvm
     python
     python3
     ripgrep
+    tmux
 )
 
 brew install "${apps[@]}"
