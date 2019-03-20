@@ -1,11 +1,13 @@
 #!/bin/bash
 # Install packages
 apps=(
-    spectacle
     iterm2
-    google-chrome
     spotify
     slack
+    font-fira-code
+    font-source-code-pro
 )
+
+brew tap caskroom/fonts
 
 brew cask install "${apps[@]}"

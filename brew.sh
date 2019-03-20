@@ -12,10 +12,6 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew tap homebrew/versions
-brew tap homebrew/dupes
-brew tap Goles/battery
-
 # Make sure we’re using the latest Homebrew
 brew update
 
@@ -31,9 +27,6 @@ apps=(
     fortune
     git
     git-extras
-    homebrew/completions/brew-cask-completion
-    homebrew/dupes/grep
-    homebrew/dupes/openssh
     neovim
     nvm
     python
