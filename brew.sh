@@ -23,16 +23,23 @@ brew upgrade --all
 # which version I'm using.
 
 apps=(
+    Schniz/tap/fnm
     bash-completion2
+    fd
     fortune
+    fzf
     git
     git-extras
-    neovim
+    luajit --HEAD
+    neovim --HEAD
     nvm
     python
     python3
     ripgrep
+    ruby
     tmux
+    tmuxinator
+    watchman
 )
 
 brew install "${apps[@]}"
